@@ -1,0 +1,37 @@
+# ========================
+# MediCore - .gitignore
+# ========================
+
+# Sensitive configuration – copy includes/db.php.example instead
+# includes/db.php  ← Uncomment this line if you store real credentials
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+error_log
+
+# PHP temp files
+*.tmp
+*.bak
+
+# Node modules (if any frontend tooling is added)
+node_modules/
+
+# Compiled/build output
+dist/
+build/
+
+# Environment files
+.env
+.env.local
